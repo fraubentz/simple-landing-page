@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    display:block;
+    /* Lay out logo and links into a row */
+    flex-direction: row;
+    background-color: #1F2937;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 50px;
+}
+
+.header-logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* First/Intro Section */
+.hero {
+    display:flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0;
+    padding: 50px;
+
+}
+
+.hero-one {
+    flex: 2;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.hero-two {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    display: block;
+    background-color: #3882F6;
+    margin: 10px;
+    padding: 20px;
+    width: 50x;
+    border-radius: 5%;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+/* Gray Placeholder Image */
+.placeholder-image {
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: #E5E7EB;
+    background-color: rgb(202, 198, 198);
+    margin: 10px auto;
+    padding: 50px;
+}
+
+/* Second Section */
+.section-two {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0;
+}
+
+.random-info {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.random-images-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.random-image-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: rgb(92, 92, 92);
+}
+
+.random-image {
+    flex: 1;
+    border: 5px;
+    border-color: #3882F6;
+    margin: 10px auto;
+    padding: 50px;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+/* Third Section with Quote */
+.section-three {
+    display:flex
+    flex-direction: column;
+    background-color: rgb(202, 198, 198);
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+
+}
+
+/* Fourth Section with Call-to-Action */
+.section-four {
+    display:flex;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 50px;
+    
+
+
+}
+
+
+footer {
+    display:flex;
+    background-color: #1F2937;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 50px;
+    color: white;
+    
+}
+
