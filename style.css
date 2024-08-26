@@ -12,7 +12,7 @@ body {
 
 /* Header */
 header {
-    display:block;
+    display: flex;
     /* Lay out logo and links into a row */
     flex-direction: row;
     background-color: #1F2937;
@@ -40,14 +40,16 @@ header {
     flex-direction: row;
     background-color: #1F2937;
     width: 100%;
-    height: 400px;
+    height: auto;
     margin-bottom: 0;
-    padding: 50px;
+    padding: 100px;
 
 }
 
 .hero-one {
-    flex: 2;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     font-size: 18px;
     color: #E5E7EB;
 
@@ -61,10 +63,11 @@ header {
 
 .button {
     display: block;
+    flex: 1;
     background-color: #3882F6;
-    margin: 10px;
-    padding: 20px;
-    width: 50x;
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
     border-radius: 5%;
     text-align: center;
     color: #F9FAF8;
@@ -87,13 +90,17 @@ header {
     flex-direction: column;
     background-color: white;
     width: 100%;
-    height: 400px;
-    margin-bottom: 0;
+    height: 300px;
+    /* height: 500px; */
+    margin-bottom: 100px;
 }
 
 .random-info {
     flex: 1;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
     text-align: center;
     font-size: 36px;
     font-weight: 800;
@@ -110,33 +117,40 @@ header {
     display: flex;
     flex-direction: column;
     flex: 1;
-    text-align: center;
-    align-items: center;
     width: 50px;
     height: 50px;
-    margin: 5px;
+    margin: 10px auto;
     color: rgb(92, 92, 92);
 }
 
 .random-image {
+    display: block;
     flex: 1;
-    border: 5px;
-    border-color: #3882F6;
-    margin: 10px auto;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+    margin: 0 auto;
     padding: 50px;
     width: 10px;
     height: 10px;
+}
+
+.random-subtext {
+    display: block;
+    flex: 1;
+    margin: 1px auto;
+    padding: 10px;
+    text-align: center;
 }
 
 
 
 /* Third Section with Quote */
 .section-three {
-    display:flex
+    display: flex;
     flex-direction: column;
     background-color: rgb(202, 198, 198);
     width: 100%;
-    height: 400px;
+    height: auto;
     margin-bottom: 0;
     padding: 50px;
     font-size: 36px;
@@ -150,7 +164,7 @@ header {
     display:flex;
     background-color: white;
     width: 100%;
-    height: 400px;
+    height: auto;
     margin: 0;
     padding: 50px;
     
