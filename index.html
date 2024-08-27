@@ -31,24 +31,28 @@
         </div>
 
     </div>
+
+
+
     <div class="section-two">
         <div class="random-info">Some random information</div>
-        <div class="random-images-container">
-            <div class="random-image-container">
+
+        <div class="random-image-container">
+            <div class="random-max-width">
                 <div class="random-image"></div>
-                <div class="random-subtext">this is some subtext under an illustration or image</div>
+                <div>this is some subtext under an illustration or image</div>
             </div>
-            <div class="random-image-container">
+            <div class="random-max-width">
                 <div class="random-image"></div>
-                <div class="random-subtext">this is some subtext under an illustration or image</div>
+                <div>this is some subtext under an illustration or image</div>
             </div>
-            <div class="random-image-container">
+            <div class="random-max-width">
                 <div class="random-image"></div>
-                <div class="random-subtext">this is some subtext under an illustration or image</div>
+                <div>this is some subtext under an illustration or image</div>
             </div>
-            <div class="random-image-container">
+            <div class="random-max-width">
                 <div class="random-image"></div>
-                <div class="random-subtext">this is some subtext under an illustration or image</div>
+                <div>this is some subtext under an illustration or image</div>
             </div>
         </div>
             
@@ -56,8 +60,8 @@
     </div>
 
     <div class="section-three">
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows All I know is that it looks nice. 
-        - Thor, God of Thunder
+        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows All I know is that it looks nice.</p>
+        <p>- Thor, God of Thunder</p>
     </div>
 
     <div class="section-four">
@@ -66,7 +70,15 @@
 
 
     <footer>
-        Copyright 2024 | PY Liu | All rights reserved
+        <p><a href="http://www.w3.org/html/logo/" target="_blank" rel="noopener noreferrer">
+            <img style="float: right;" src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Logo">
+        </a></p>
+        <p><b>Coded with &#10084 by Poyi Liu</b></p>
+        <p> Copyright &copy <span id="current-year"></span> Poyi Liu. All rights reserved.</p>
     </footer>
+    <!-- Copyright Date Script -->
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
